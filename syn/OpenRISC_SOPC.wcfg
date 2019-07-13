@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="/home/lyuyang/ProJect/OpenRISC_SOPC/syn/OpenRISC_SOPC_TB_isim_beh.wdb" id="1" type="auto">
+         <top_modules>
+            <top_module name="OpenRISC_SOPC_TB" />
+            <top_module name="glbl" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <WVObjectSize size="16" />
+   <wvobject fp_name="/OpenRISC_SOPC_TB/led" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">led[3:0]</obj_property>
+      <obj_property name="ObjectShortName">led[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/OpenRISC_SOPC_TB/clk" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/OpenRISC_SOPC_TB/rst" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">rst</obj_property>
+      <obj_property name="ObjectShortName">rst</obj_property>
+   </wvobject>
+   <wvobject fp_name="/OpenRISC_SOPC_TB/U_DUT/U_CPU/iwb_cyc_o" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">iwb_cyc_o</obj_property>
+      <obj_property name="ObjectShortName">iwb_cyc_o</obj_property>
+   </wvobject>
+   <wvobject fp_name="/OpenRISC_SOPC_TB/U_DUT/U_CPU/iwb_stb_o" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">iwb_stb_o</obj_property>
+      <obj_property name="ObjectShortName">iwb_stb_o</obj_property>
+   </wvobject>
+   <wvobject fp_name="/OpenRISC_SOPC_TB/U_DUT/U_CPU/iwb_ack_i" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">iwb_ack_i</obj_property>
+      <obj_property name="ObjectShortName">iwb_ack_i</obj_property>
+   </wvobject>
+   <wvobject fp_name="/OpenRISC_SOPC_TB/U_DUT/U_CPU/iwb_adr_o" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">iwb_adr_o[31:0]</obj_property>
+      <obj_property name="ObjectShortName">iwb_adr_o[31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/OpenRISC_SOPC_TB/U_DUT/U_CPU/iwb_dat_i" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">iwb_dat_i[31:0]</obj_property>
+      <obj_property name="ObjectShortName">iwb_dat_i[31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/OpenRISC_SOPC_TB/U_DUT/U_CPU/dwb_cyc_o" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">dwb_cyc_o</obj_property>
+      <obj_property name="ObjectShortName">dwb_cyc_o</obj_property>
+   </wvobject>
+   <wvobject fp_name="/OpenRISC_SOPC_TB/U_DUT/U_CPU/dwb_stb_o" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">dwb_stb_o</obj_property>
+      <obj_property name="ObjectShortName">dwb_stb_o</obj_property>
+   </wvobject>
+   <wvobject fp_name="/OpenRISC_SOPC_TB/U_DUT/U_CPU/dwb_ack_i" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">dwb_ack_i</obj_property>
+      <obj_property name="ObjectShortName">dwb_ack_i</obj_property>
+   </wvobject>
+   <wvobject fp_name="/OpenRISC_SOPC_TB/U_DUT/U_CPU/dwb_we_o" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">dwb_we_o</obj_property>
+      <obj_property name="ObjectShortName">dwb_we_o</obj_property>
+   </wvobject>
+   <wvobject fp_name="/OpenRISC_SOPC_TB/U_DUT/U_CPU/dwb_sel_o" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">dwb_sel_o[3:0]</obj_property>
+      <obj_property name="ObjectShortName">dwb_sel_o[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/OpenRISC_SOPC_TB/U_DUT/U_CPU/dwb_adr_o" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">dwb_adr_o[31:0]</obj_property>
+      <obj_property name="ObjectShortName">dwb_adr_o[31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/OpenRISC_SOPC_TB/U_DUT/U_CPU/dwb_dat_i" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">dwb_dat_i[31:0]</obj_property>
+      <obj_property name="ObjectShortName">dwb_dat_i[31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/OpenRISC_SOPC_TB/U_DUT/U_CPU/dwb_dat_o" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">dwb_dat_o[31:0]</obj_property>
+      <obj_property name="ObjectShortName">dwb_dat_o[31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+</wave_config>
