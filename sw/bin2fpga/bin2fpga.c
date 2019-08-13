@@ -108,7 +108,7 @@ int main(int argc, char** argv)
 			return 0;
 		}
 		
-		fprintf(FileOut, "MEMORY_INITIALIZATION_RADIX=16;\nMEMORY_INITIALIZATION_VECTOR=\n", maxaddr);
+		fprintf(FileOut, "MEMORY_INITIALIZATION_RADIX=16;\nMEMORY_INITIALIZATION_VECTOR=\n");
 
 		fseek(FileIn, 0L, SEEK_SET);
 		fread(buf, FileLen, 1, FileIn);
